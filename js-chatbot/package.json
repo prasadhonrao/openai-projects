@@ -1,0 +1,31 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot built using OpenAI ChatGPT and NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "chat",
+    "chatbot",
+    "chatgpt",
+    "openai",
+    "node",
+    "nodejs"
+  ],
+  "author": "Prasad Honrao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prasadhonrao/chatgpt-chatbot"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
